@@ -1,13 +1,66 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <style>
-  
-    </style>
-  </head>
-  <body>
+<html lang="en">
+  <!-- Bootstrap -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  <!-- Popper JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+  <!-- Icons-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity=
+  "sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+  <!-- ends bootstrap links -->
+
+  <!-- ends bootstrap links -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- additional elements-->
+  <title>Portfolio</title>
+
+<head>
+</head>
+
+<body onload="myFunction()">
+<div id="loading"></div>
+
   <h1>Full stack Rails developer</h1>
   <h2>Emmanuel Jaramillo Muñoz</h2>
-    
+  
+  <!-- Footer -->
+  <footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </footer>
+
+  <script>
+  		// $(document).ready(function(){
+  			// 	$('div#loading').removeAttr('id');
+  		// });
+  		var preloader = document.getElementById("loading");
+  		// window.addEventListener('load', function(){
+  		// 	preloader.style.display = 'none';
+  		// 	})
+
+  		function myFunction(){
+  			preloader.style.display = 'none';
+  		};
+  	</script>
+
   </body>
 </html>
